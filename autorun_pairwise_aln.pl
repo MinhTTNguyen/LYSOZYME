@@ -1,8 +1,8 @@
 #! /usr/perl/bin -w
 use strict;
 
-my $folderin="/home/mnguyen/Research/Lysozyme/Fungi/Added_JGI_fungi_26Feb2018/Domain_seqs_with_batch1_to_9";
-my $folderout="/home/mnguyen/Research/Lysozyme/Fungi/Added_JGI_fungi_26Feb2018/Domain_seqs_with_batch1_to_9_ALN";
+my $folderin="/home/mnguyen/Research/Lysozyme/Fungi_28Aug2018_goodmodels_producedprots/fasta";
+my $folderout="/home/mnguyen/Research/Lysozyme/Fungi_28Aug2018_goodmodels_producedprots/fasta_ALN";
 mkdir $folderout;
 
 opendir(DIR,"$folderin") || die "Cannot open $folderin";
